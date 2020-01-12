@@ -29,6 +29,10 @@
                                         </tableViewCellContentView>
                                     </tableViewCell>
                                 </prototypes>
+                                <connections>
+                                    <outlet property="dataSource" destination="tCV-R0-pcW" id="bGq-I3-Fsu"/>
+                                    <outlet property="delegate" destination="tCV-R0-pcW" id="ZHm-VT-aXS"/>
+                                </connections>
                             </tableView>
                             <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="bn5-Kf-Jdi">
                                 <rect key="frame" x="0.0" y="818" width="414" height="44"/>
